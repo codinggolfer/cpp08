@@ -26,7 +26,9 @@ int main() {
         easyfind(vec, 5);
         easyfind(vec, 2);
     } catch (std::exception &e) {
+        vec.clear();
         std::cout << e.what() << std::endl;
     }
+    vec.clear();
     return 0;
 }
