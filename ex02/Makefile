@@ -1,8 +1,8 @@
-NAME	=	Span
+NAME	=	mutant
 
 CFLAGS	=	-Wall -Wextra -Werror -std=c++20
 
-FILES	=	main.cpp Span.cpp
+FILES	=	main.cpp
 CC		=	c++
 
 FtoO	=	$(FILES:.cpp=.o)
