@@ -1,6 +1,9 @@
 #pragma once
 
 #include <iostream>
+#include <vector>
+#include <algorithm>
+#include <limits>
 
 template <typename T> int smalestSpan(T& container) {
     if (container.empty() || container.size() == 1)
@@ -42,8 +45,8 @@ public:
 
     void adderAll(std::vector<int>::iterator begin, std::vector<int>::iterator end);
     void addNumber(int n);
-    int shortestSpan();
-    int longestSpan();
+    unsigned int shortestSpan();
+    unsigned int longestSpan();
 
 
     ~Span();

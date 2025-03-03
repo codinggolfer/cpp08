@@ -23,8 +23,8 @@ int main() {
         addRandomIntToVector(vec, 1, 100);
     }
     try {
-        easyfind(vec, 5);
-        easyfind(vec, 2);
+        ::easyfind(vec, 11);
+        ::easyfind(vec, 24);
     } catch (std::exception &e) {
         vec.clear();
         std::cout << e.what() << std::endl;

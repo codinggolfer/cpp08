@@ -26,12 +26,12 @@ void Span::addNumber(int n) {
         throw std::out_of_range("Vector is full");
 }
 
-int Span::shortestSpan() {
-    return smalestSpan(vec);
+unsigned int Span::shortestSpan() {
+    return ::smalestSpan(vec);
 }
 
-int Span::longestSpan() {
-    return biggestSpan(vec);
+unsigned int Span::longestSpan() {
+    return ::biggestSpan(vec);
 }
 
 void Span::adderAll(std::vector<int>::iterator begin, std::vector<int>::iterator end) {
